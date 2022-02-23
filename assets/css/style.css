@@ -70,7 +70,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -194,7 +195,7 @@ hr {
 
 /* event times */
 
-#times{
+#times {
     background-image: url('../css/images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +230,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -238,4 +239,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos > img {
+    width: 100%;
 }
